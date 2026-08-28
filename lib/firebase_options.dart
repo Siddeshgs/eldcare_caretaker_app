@@ -44,41 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC_dYL6mDyPHLZ599WxIO6r6WI-XU65Oyk',
-    appId: '1:813084970288:web:624ea74393c812874b0cf5',
-    messagingSenderId: '813084970288',
-    projectId: 'eldcare-b043d',
-    authDomain: 'eldcare-b043d.firebaseapp.com',
-    databaseURL: 'https://eldcare-b043d-default-rtdb.firebaseio.com',
-    storageBucket: 'eldcare-b043d.firebasestorage.app',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    databaseURL: 'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAGILkoXAhH4XytMbxwtGSttf0DE3VB6hM',
-    appId: '1:813084970288:android:e8a75585aad1415b4b0cf5',
-    messagingSenderId: '813084970288',
-    projectId: 'eldcare-b043d',
-    databaseURL: 'https://eldcare-b043d-default-rtdb.firebaseio.com',
-    storageBucket: 'eldcare-b043d.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    databaseURL: 'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCeqe5FNQGhN78Q0OnPNN_QgEoWad9nhd4',
-    appId: '1:813084970288:ios:98ec5c78faea08574b0cf5',
-    messagingSenderId: '813084970288',
-    projectId: 'eldcare-b043d',
-    databaseURL: 'https://eldcare-b043d-default-rtdb.firebaseio.com',
-    storageBucket: 'eldcare-b043d.firebasestorage.app',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    databaseURL: 'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.eldcareCaretakerApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCeqe5FNQGhN78Q0OnPNN_QgEoWad9nhd4',
-    appId: '1:813084970288:ios:98ec5c78faea08574b0cf5',
-    messagingSenderId: '813084970288',
-    projectId: 'eldcare-b043d',
-    databaseURL: 'https://eldcare-b043d-default-rtdb.firebaseio.com',
-    storageBucket: 'eldcare-b043d.firebasestorage.app',
+    apiKey: 'YOUR_MACOS_API_KEY',
+    appId: 'YOUR_MACOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    databaseURL: 'https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
     iosBundleId: 'com.example.eldcareCaretakerApp',
   );
 
