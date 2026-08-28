@@ -28,7 +28,7 @@ class _MedicinesScreenState extends State<MedicinesScreen> {
   @override
   void initState() {
     super.initState();
-    _configureLocalTimeZone();   // ✅ keep this
+    _configureLocalTimeZone();
     _initializeNotifications();
     _loadMedicines();
   }
@@ -84,7 +84,7 @@ class _MedicinesScreenState extends State<MedicinesScreen> {
       medicines = data.map((e) {
         final med = Medicine.fromJson(jsonDecode(e));
 
-        // ✅ FIX OLD INVALID IDS
+        // Normalize legacy IDs to fit within 32-bit integer limit
         if (med.id > 2147483647) {
           return Medicine(
             id: med.id.remainder(2147483647),

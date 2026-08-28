@@ -10,7 +10,7 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
 
-        <!-- ✅ GOOGLE MAPS API KEY -->
+        <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAGILkoXAhH4XytMbxwtGSttf0DE3VB6hM"/>

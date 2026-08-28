@@ -17,7 +17,7 @@ class _IoTDataScreenState extends State<IoTDataScreen> {
     listenToSensorData();
   }
 
-  // 🔑 Listen to Firebase
+  // Listen to Firebase
   void listenToSensorData() {
     DatabaseReference ref = FirebaseDatabase.instance.ref("smartstick");
 

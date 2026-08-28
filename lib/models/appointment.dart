@@ -1,5 +1,5 @@
 class Appointment {
-  final int id;   // ✅ ADD THIS
+  final int id;
   final String doctor;
   final String date;
   final String time;

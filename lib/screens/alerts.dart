@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:url_launcher/url_launcher.dart'; // ✅ Added
+import 'package:url_launcher/url_launcher.dart';
 
 class AlertsScreen extends StatefulWidget {
   const AlertsScreen({super.key});
@@ -53,7 +53,7 @@ class _AlertsScreenState extends State<AlertsScreen> {
           alerts = List.from(alerts); // trigger rebuild
         });
 
-        print("Alerts updated: $alerts"); // ✅ Debug log
+        print("Alerts updated: $alerts");
       }
     });
   }

@@ -112,7 +112,7 @@ class _AppointmentsScreenState extends State<AppointmentsScreen> {
       UILocalNotificationDateInterpretation.absoluteTime,
     );
 
-    debugPrint("✅ Scheduled successfully");
+    debugPrint("Scheduled successfully");
   }
   Future<void> _pickDate(TextEditingController controller) async {
     final picked = await showDatePicker(
